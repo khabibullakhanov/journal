@@ -1,0 +1,30 @@
+.navbar-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1976d2;
+    height: 100vh;
+    gap: 0.8rem;
+    padding: 20px 0 0 20px;
+}
+
+.navbar-main a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.navbar-main a > * {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+.active {
+    padding-left: 10px;
+    transition: 0.4s ease-in-out all;
+}

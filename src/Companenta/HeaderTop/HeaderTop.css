@@ -1,0 +1,37 @@
+.header-main {
+    height: auto;
+    box-shadow: none;
+}
+
+.user-main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.user-main:hover .user-menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+}
+
+.user-icon {
+    font-size: 30px;
+}
+/* 
+.user-icon:hover {
+    background-color: red;
+} */
+
+.user-menu {
+    background-color: grey;
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+.user-menu a {
+    color: white;
+}

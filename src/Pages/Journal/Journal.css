@@ -1,0 +1,19 @@
+.ball {
+    width: 22px;
+    padding-left: 4px;
+    outline: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.subject-name {
+    text-align: center;
+    padding-block: 5px;
+}
+
+.save-ball {
+    position: relative;
+    top: 20px;
+    right: 50px;
+    float: right;
+}
