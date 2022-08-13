@@ -1,3 +1,16 @@
+import oybek from "../../Assets/Images/oybek abduljabborov.jpg"
+import man from "../../Assets/Images/Muhammadxon.jpg"
+import qobiljon from "../../Assets/Images/qobiljon rahmatullayev.jpg"
+import kamil from "../../Assets/Images/kamil axmedov.jpg"
+import mirfayzi from "../../Assets/Images/mirfayzi.jpg"
+import faxriyor from "../../Assets/Images/faxriyor.jpg"
+import nozimjon from "../../Assets/Images/nozimjon.jpg"
+import halimboy from "../../Assets/Images/abduhalim.jpg"
+import behruz from "../../Assets/Images/behruz.jpg"
+
+
+
+
 export const getData = async () => {
     return [
         {
@@ -7,7 +20,9 @@ export const getData = async () => {
             age: 26,
             birthday: "07 02 1996",
             phone: "+998 (95) 027 04 96",
-            img: "../../Assets/Images/oybek abduljabborov.jpg"
+            img: oybek,
+            job: "Full Stack Programmer",
+            interest: "Write Codes"
         },
         {
             id: 2,
@@ -16,7 +31,9 @@ export const getData = async () => {
             age: 15,
             birthday: "03 05 2022",
             phone: "+998 (99) 341 47 18",
-            img: "../../Assets/Images/Muhammadxon.jpg"
+            img: man,
+            job: "Web Developer",
+            interest: "Watch You Tube",
         },
         {
             id: 3,
@@ -25,7 +42,9 @@ export const getData = async () => {
             age: 22,
             birthday: "24 05 2001",
             phone: "+998 (90) 050 03 25",
-            img: "../../Assets/Images/qobiljon rahmatullayev.jpg"
+            img: qobiljon,
+            job: "Teacher",
+            interest: "Read Books",
         },
         {
             id: 4,
@@ -34,7 +53,9 @@ export const getData = async () => {
             age: 20,
             birthday: "14 08 2003",
             phone: "+998 (93) 405 76 28",
-            img: "../../Assets/Images/kamil axmedov.jpg"
+            img: kamil,
+            job: "Manager",
+            interest: "Read Telegram",
         },
         {
             id: 5,
@@ -43,7 +64,9 @@ export const getData = async () => {
             age: 13,
             birthday: "03 05 2009",
             phone: "+998 (90) 795 02 11",
-            img: "../../Assets/Images/mirfayzi.jpg"
+            job: "Play PUBG",
+            interest: "Watch cartoons",
+            img: mirfayzi,
         },
         {
             id: 6,
@@ -51,7 +74,10 @@ export const getData = async () => {
             fathername: "Sherzodoovich",
             age: 16,
             birthday: "31 07 2006",
-            phone: "+998 (94) 152 49 89"
+            phone: "+998 (94) 152 49 89",
+            img: behruz,
+            job: "Farmer",
+            interest: "Swimming",
         },
         {
             id: 7,
@@ -59,7 +85,9 @@ export const getData = async () => {
             fathername: "Rasuljonovich",
             age: 16,
             birthday: "27 12 2006",
-            phone: "+998 (93) 108 51 06"
+            phone: "+998 (93) 108 51 06",
+            job: "English",
+            interest: "Read English Books",
         },
         {
             id: 8,
@@ -68,7 +96,9 @@ export const getData = async () => {
             age: 16,
             birthday: "24 05 2006",
             phone: "+998 (99) 695 20 85",
-            img: "../../Assets/Images/faxriyor.jpg"
+            img: faxriyor,
+            job: "Junior Developer",
+            interest: "Play Basketball",
         },
         {
             id: 9,
@@ -77,7 +107,9 @@ export const getData = async () => {
             age: 16,
             birthday: "12 08 2003",
             phone: "+998 (93) 268 47 40",
-            img: "../../Assets/Images/nozimjon.jpg"
+            img: nozimjon,
+            job: "Bloger",
+            interest: "Upload video to You Tube",
         },
         {
             id: 10,
@@ -86,7 +118,9 @@ export const getData = async () => {
             age: 16,
             birthday: "03 07 2005",
             phone: "+998 (99) 396 51 77",
-            img: "../../Assets/Images/abduhalim.jpg"
+            img: halimboy,
+            job: "Inventor",
+            interest: "Build new invents"
         },
     ]
 };

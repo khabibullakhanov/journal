@@ -14,7 +14,9 @@ import InputBase from "@mui/material/InputBase";
 import { useDispatch, useSelector } from "react-redux";
 import { acStudent } from "../../Redux/Student";
 import { getData } from "../Data/data";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { Avatar } from "@mui/material";
+
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -102,7 +104,8 @@ export function HeaderTable() {
         <TableHead>
           <TableRow>
             <TableCell sx={{ fontWeight: "600" }}>№</TableCell>
-            <TableCell sx={{ fontWeight: "600" }}>Name </TableCell>
+            {/* <TableCell sx={{ fontWeight: "600" }}>Image</TableCell> */}
+            <TableCell sx={{ fontWeight: "600" }} align="left">Name </TableCell>
             <TableCell sx={{ fontWeight: "600" }} align="center">
               Father Name
             </TableCell>
@@ -154,13 +157,14 @@ export function HeaderTable() {
                     <TableCell component="th" scope="row">
                       {row.id}
                     </TableCell>
-                    <TableCell component="th" scope="row">
+                    <TableCell component="th" scope="row" sx={{display:"flex", alignItems: "center", gap: "1rem",}}>
+                      <Avatar src={row.img} alt="" />
                       {row.fullname}
                     </TableCell>
                     <TableCell align="center">{row.fathername}</TableCell>
                     <TableCell align="center">{row.age}</TableCell>
                     <TableCell align="center">{row.birthday}</TableCell>
-                    <TableCell align="center">{row.img}</TableCell>
+                    <TableCell align="center">{row.phone}</TableCell>
                     <TableCell align="center">
                       <Button
                         variant="outlined"
